@@ -1,0 +1,197 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; /* Cambia "Arial" por el nombre de la fuente que desees utilizar */
+}
+
+head {
+    background-color:bisque;
+
+}
+.caja{
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: repeat(4,auto)
+    
+}
+.item-1{ 
+    
+    display: grid; /* Hace que los elementos del grid sean flexibles */
+    background-color:  rgba(255, 252, 249, 0.822); /* Color de fondo de las cajas */
+    padding: 20px; /* Espaciado interno de las cajas */
+    text-align: center; /* Alineación del texto al centro */
+    grid-row: 1;
+
+}
+.item-2{ 
+    display: grid; /* Hace que los elementos del grid sean flexibles */
+    background-color: rgba(255, 199, 144, 0.822); /* Color de fondo de las cajas */
+    padding: 20px; /* Espaciado interno de las cajas */
+    text-align: center; /* Alineación del texto al centro */
+    grid-row: 2;
+    border: 2px solid rgb(255, 133, 52);
+}
+.caja2{
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: 60% 40%;
+
+}
+.item-3{ 
+
+    background-color:  rgba(255, 255, 255, 0.822); /* Color de fondo de las cajas */
+    text-align: center; /* Alineación del texto al centro */
+    flex: 0 0 60%;
+}
+.item-4{ 
+   
+    background-color: rgba(255, 199, 144, 0.822); /* Color de fondo de las cajas */
+    
+    text-align: center; /* Alineación del texto al centro */
+    flex: 0 0 40%;
+    
+}
+.item-5{ 
+    grid-row: 4;
+    display: flex; /* Hace que los elementos del grid sean flexibles */
+    background-color: rgba(110, 110, 110, 0.822); /* Color de fondo de las cajas */
+    padding: 20px; /* Espaciado interno de las cajas */
+    text-align: center; /* Alineación del texto al centro */
+    
+}
+.imagen{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+/* Style for the search box container */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  /* Style for the text input */
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    display: flex;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-grow: 1; /* Take up remaining space */
+    /* Style for the search button */
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    right:7%;
+}
+  .search-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f36c1e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    right: 1%;
+    transition: background-color 0.3s;
+      }
+      
+    .search-button:hover {
+        background-color: #f874279d;
+        color: #fff;
+
+  }
+
+.menu{
+  display: flex;
+}
+  
+  .menu-item {
+    display: flex;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    align-items: start;
+    flex-direction: row;
+    
+  }
+  
+  .menu-item:hover {
+    background-color: #f783419d;
+    color: #fff;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content.active {
+    display: block;
+  }
+ .tableasire{
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 133, 52);
+  
+  
+ }
+ .cartbutton {
+  display: inline-block;
+  background-color: #f36c1e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+  text-align: center; 
+  /* ponerle un texto mas grande */
+  
+  }
+    
+  .cartbutton:hover {
+      background-color: #f783419d;
+      color: #fff;
+
+
+}
+.copyright {
+  font-size: 14px;
+  color: #ffffff; /* Adjust color as needed */
+  text-align: center; /* Centra el texto horizontalmente */
+  
+}
+.purchases{
+  font-size: 20px;
+}
+.aboutcomp{
+  font-size: 20px;
+}
+.textabout{
+  font-size: 15px;
+}
+.goals{
+  font-size:19px
+  
+}
+li{
+  text-align: left;
+}
+.contacts{
+  font-size:19px
+  
+}

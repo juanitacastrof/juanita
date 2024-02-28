@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="Register.css">
+    </head>
+
+    <body> 
+        <div class="caja">
+             <div class="item item-1">
+                <img src="logo.jpn.png" class="imagen">
+            </div>
+            <div class="item item-2" class="search-container">
+              
+                <input type="text" class="search-input" placeholder="search"> 
+
+                <!-- Button for search -->
+                <button class="search-button">Search</button>
+
+                  <span class="menu">
+                    <a class="menu-item" href="index.html">Home</a>
+                    <a class="menu-item" href="Products.html">Products</a>
+                    <a class="menu-item" href="Register.html">Register</a>
+                    <a class="menu-item" href="About.html">About</a>
+                  </span>
+                  
+            </div>
+            <div class="caja2">
+                <div class="item item-3"> 
+                  <h1 class="forme">Registration Form</h1>
+                  
+
+
+
+                  <div class="contaner">
+                    <h2 class="complete"> Please complete the following form to register for an account on our website.</h2>
+                    <form action="register.php" method="POST">
+                      <div class="form-group">
+                        <label for="username">Username*</label>
+                        <input type="text" id="username" name="username" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password*</label>
+                        <input type="password" id="password" name="password" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="confirm-password">Confirm Password*</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="first-name">First name*</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="surname">Surname*</label>
+                        <input type="text" id="surname" name="surname" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="gender">Gender*</label>
+                        <select id="gender" name="gender" required>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="date-of-birth">Date of Birth*</label>
+                        <input type="date" id="date-of-birth" name="date-of-birth">
+                      </div>
+                      <div class="form-group">
+                        <label for="address">Address*</label>
+                        <input type="text" id="address" name="address" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="suburb">Suburb*</label>
+                        <input type="text" id="suburb" name="suburb" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="postcode">Postcode*</label>
+                        <input type="text" id="postcode" name="postcode" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="state">State*</label>
+                        <select id="state" name="state" required>
+                          <option value="ACT">ACT</option>
+                          <option value="NSW">NSW</option>
+                          <option value="NT">NT</option>
+                          <option value="QLD">QLD</option>
+                          <option value="SA">SA</option>
+                          <option value="TAS">TAS</option>
+                          <option value="VIC">VIC</option>
+                          <option value="WA">WA</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="phone-number">Phone number*</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn">Register</button>
+                        <button type="reset" class="btn">Clear</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  
+
+
+
+
+
+
+                </div>
+                <div class="item item-4">
+                  <h2 class="purchases">Purchases</h2>
+                  <table class="tableasire"> 
+
+                    <tr>
+                        <td>0 items.</td>
+                        <td>Cart sub-total: $0.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class=cartbutton style="width: 100%;">Go to Checkout</button></td>
+                    </tr>
+                  </table>
+                </div>
+              
+            </div>
+            <div class="item item-5">
+              <div class="copyright">
+                &copy; 2024 Juanita Castro
+             </div>
+        </div>
+        
+    </body>
+
+
+
+</html>
